@@ -146,8 +146,8 @@ class ChatPage extends StatelessWidget {
         child: Row(
           children: [
             Container(
-              margin: EdgeInsets.only(left: 20),
-              padding: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
+              margin: const EdgeInsets.only(left: 20),
+              padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 10),
               decoration: BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.circular(30),
